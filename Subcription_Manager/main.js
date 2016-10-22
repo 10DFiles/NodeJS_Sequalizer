@@ -19,7 +19,7 @@ app.use(express.static('supportFile'));
 app.get('/', function(req, res) {
 	res.sendfile(__dirname + '/index.html');
 });
-
+    
 app.post('/subcription_status', controller.subcription_status);
 
 app.listen(3000, function(req, res) {
