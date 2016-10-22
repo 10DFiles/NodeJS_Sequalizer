@@ -12,7 +12,8 @@ app.use(bodyParser.urlencoded({
 var controller = require('./server/js/Subscription_Status_Server.js');
 
 var http = require("http");
-
+          
+          
 app.use(express.static('client'));
 app.use(express.static('supportFile'));
 
